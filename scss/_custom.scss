@@ -549,6 +549,7 @@ label input[type='checkbox'][data-schema-key] {
       @include full-height;
 
       height: 550px;
+      min-height: 100vh;
       position: relative;
     }
 

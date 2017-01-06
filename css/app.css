@@ -3854,6 +3854,7 @@ label input[type='checkbox'][data-schema-key] {
     .template-home .section-top .inner {
       min-height: calc(100vh - 0);
       height: 550px;
+      min-height: 100vh;
       position: relative; }
     .template-home .section-top .main-floral-mobile {
       @incldue horizontal-center; }
