@@ -610,7 +610,7 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: .5rem;
 $topbar-background: $light-gray;
-$topbar-height: rem-calc(50); // custom
+$topbar-height: 0; // custom
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: .5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
