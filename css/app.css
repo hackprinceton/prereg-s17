@@ -3585,7 +3585,7 @@ body {
   -ms-flex-positive: 1;
       flex-grow: 1;
   margin-top: -100%;
-  min-height: 0;
+  min-height: 0px;
   padding: 5px 0;
   transition: margin-top .5s ease-out; }
   @media screen and (min-width: 40em) {
@@ -3764,7 +3764,7 @@ label input[type='checkbox'][data-schema-key] {
       flex-direction: column;
   height: 100%; }
   .main-wrapper .title-bar {
-    line-height: 0;
+    line-height: 0px;
     padding-bottom: 0;
     padding-top: 0;
     background-color: #fefefe; }
@@ -3776,7 +3776,7 @@ label input[type='checkbox'][data-schema-key] {
     .main-wrapper .top-bar img {
       height: 30px; }
     .main-wrapper .top-bar .top-bar-title {
-      line-height: 0;
+      line-height: 0px;
       padding-bottom: 0;
       padding-top: 0; }
     .main-wrapper .top-bar ul li {
@@ -3785,7 +3785,7 @@ label input[type='checkbox'][data-schema-key] {
         font-family: "Inconsolata", monospace;
         letter-spacing: .1em;
         text-transform: uppercase;
-        line-height: 0;
+        line-height: 0px;
         padding-bottom: 0;
         padding-top: 0;
         color: #0a0a0a;
@@ -3852,8 +3852,8 @@ label input[type='checkbox'][data-schema-key] {
         overflow-x: auto;
         overflow-y: hidden; } }
     .template-home .section-top .inner {
+      min-height: calc(100vh - 0px);
       height: 550px;
-      min-height: 100vh;
       position: relative; }
     .template-home .section-top .main-floral-mobile {
       @incldue horizontal-center; }
@@ -3889,8 +3889,8 @@ label input[type='checkbox'][data-schema-key] {
     background-color: #f2aac7;
     padding-top: 0; }
     .template-home .section-about .inner {
-      min-height: calc(100vh - 0);
-      background: url("/img/floral-about.png") 50% calc(50% + 0)/80% no-repeat fixed;
+      min-height: calc(100vh - 0px);
+      background: url("/img/floral-about.png") 50% calc(50% + 0px)/80% no-repeat fixed;
       height: 30em;
       padding-bottom: 1.875rem;
       padding-top: 1.875rem;
@@ -3906,7 +3906,7 @@ label input[type='checkbox'][data-schema-key] {
           transform: translateY(-50%);
       line-height: 1.25; }
   .template-home .section-faq {
-    background: url("/img/floral-faq.png") 50% calc(50% + 0)/50% no-repeat fixed, linear-gradient(to right, #d6d6ed 0%, #d6d6ed 49.5%, #bfd2ef 50%, #d6d6ed 100%); }
+    background: url("/img/floral-faq.png") 50% calc(50% + 0px)/50% no-repeat fixed, linear-gradient(to right, #d6d6ed 0%, #d6d6ed 49.5%, #bfd2ef 50%, #d6d6ed 100%); }
     .template-home .section-faq .faq-wrap {
       margin-left: -20px;
       margin-right: -20px; }
