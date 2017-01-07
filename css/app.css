@@ -3843,130 +3843,54 @@ label input[type='checkbox'][data-schema-key] {
   .template-home section {
     padding-top: 1.5em; }
   .template-home .section-top {
-    background-color: #f0dcee;
+    background: no-repeat #f0dcee fixed;
+    background-image: url("/img/floral-home.png");
+    background-position: 57.5% calc(20% + 30px);
+    background-size: 85%;
     overflow: visible;
     padding-top: 0; }
     @media screen and (min-width: 40em) {
       .template-home .section-top {
-        background: url("/img/floral-home.png") center/50vw no-repeat #f0dcee fixed;
+        background-position: center;
+        background-size: 50vw;
         overflow-x: auto;
         overflow-y: hidden; } }
     .template-home .section-top .inner {
       min-height: calc(100vh - 0px);
       height: 550px;
       position: relative; }
-    .template-home .section-top .main-floral-mobile {
-      @incldue horizontal-center; }
-      @media screen and (min-width: 40em) {
-        .template-home .section-top .main-floral-mobile {
-          display: none !important; } }
     .template-home .section-top .main-text {
-      bottom: calc(50% - 100px);
-      color: #515151; }
+      bottom: 2rem;
+      color: #515151;
+      position: absolute;
+      text-align: center;
+      width: calc(100% - 1.25rem); }
       @media screen and (min-width: 40em) {
         .template-home .section-top .main-text {
-          position: absolute;
+          bottom: calc(50% - 100px);
           right: 1.875rem;
           text-align: right; } }
       .template-home .section-top .main-text .title {
         font-family: "Inconsolata", monospace;
-        font-size: 5.625rem;
-        line-height: .5; }
-      .template-home .section-top .main-text .subtext {
-        display: -ms-flexbox;
-        display: flex;
         font-size: 2.5rem;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+        line-height: .5; }
+        @media screen and (min-width: 40em) {
+          .template-home .section-top .main-text .title {
+            font-size: 5.625rem; } }
+      .template-home .section-top .main-text .subtext {
+        font-size: 1rem;
         margin-bottom: 0; }
+        @media screen and (min-width: 40em) {
+          .template-home .section-top .main-text .subtext {
+            font-size: 2.5rem; } }
       @media screen and (min-width: 40em) {
         .template-home .section-top .main-text .app-message-mobile {
           display: none !important; } }
       @media screen and (max-width: 39.9375em) {
         .template-home .section-top .main-text .app-message-desktop {
           display: none !important; } }
-  .template-home .section-about {
-    background-color: #f2aac7;
-    padding-top: 0; }
-    .template-home .section-about .inner {
-      min-height: calc(100vh - 0px);
-      background: url("/img/floral-about.png") 50% calc(50% + 0px)/80% no-repeat fixed;
-      height: 30em;
-      padding-bottom: 1.875rem;
-      padding-top: 1.875rem;
-      position: relative; }
-    .template-home .section-about .title-outer {
-      height: 100%; }
-    .template-home .section-about .title {
-      margin-top: 10vh; }
-    .template-home .section-about .text {
-      position: absolute;
-      top: 50%;
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-      line-height: 1.25; }
-  .template-home .section-faq {
-    background: url("/img/floral-faq.png") 50% calc(50% + 0px)/50% no-repeat fixed, linear-gradient(to right, #d6d6ed 0%, #d6d6ed 49.5%, #bfd2ef 50%, #d6d6ed 100%); }
-    .template-home .section-faq .faq-wrap {
-      margin-left: -20px;
-      margin-right: -20px; }
-    .template-home .section-faq .faq,
-    .template-home .section-faq .faq-sizer {
-      box-sizing: border-box;
-      padding: 0;
-      width: auto; }
-      @media screen and (min-width: 40em) {
-        .template-home .section-faq .faq,
-        .template-home .section-faq .faq-sizer {
-          padding: 0 20px;
-          width: 50%; } }
-    .template-home .section-faq .faq-title {
-      font-size: 1rem;
-      margin-bottom: 1em;
-      margin-top: 1em; }
-  .template-home .section-sponsors .sponsors,
-  .template-home .section-partners .sponsors {
-    background-color: #fefefe;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding-bottom: .5em;
-    padding-top: .5em;
-    text-align: center; }
-    .template-home .section-sponsors .sponsors a,
-    .template-home .section-partners .sponsors a {
-      box-sizing: content-box;
-      display: inline-block;
-      padding: 30px;
-      vertical-align: middle;
-      width: 70%; }
-      @media screen and (min-width: 64em) {
-        .template-home .section-sponsors .sponsors a,
-        .template-home .section-partners .sponsors a {
-          padding: 2.5rem; } }
-      .template-home .section-sponsors .sponsors a img,
-      .template-home .section-partners .sponsors a img {
-        border: 0;
-        display: block;
-        width: 100%; }
-    .template-home .section-sponsors .sponsors .sponsor-tier:not(:last-child),
-    .template-home .section-partners .sponsors .sponsor-tier:not(:last-child) {
-      border-bottom: 1px solid #f0dcee; }
-    .template-home .section-sponsors .sponsors .sponsors-title > a,
-    .template-home .section-partners .sponsors .sponsors-title > a {
-      max-width: 320px; }
-    .template-home .section-sponsors .sponsors .sponsors-platinum > a,
-    .template-home .section-partners .sponsors .sponsors-platinum > a {
-      max-width: 340px; }
-    .template-home .section-sponsors .sponsors .sponsors-gold > a,
-    .template-home .section-partners .sponsors .sponsors-gold > a {
-      max-width: 230px; }
-    .template-home .section-sponsors .sponsors .sponsors-silver > a,
-    .template-home .section-partners .sponsors .sponsors-silver > a {
-      max-width: 160px; }
-    .template-home .section-sponsors .sponsors .sponsors-bronze > a,
-    .template-home .section-partners .sponsors .sponsors-bronze > a {
-      max-width: 100px; }
-    .template-home .section-sponsors .sponsors .sponsors-partners > a,
-    .template-home .section-partners .sponsors .sponsors-partners > a {
-      max-width: 100px;
-      padding: 25px; }
+      .template-home .section-top .main-text .followthrough {
+        margin-top: 5em; }
+        @media screen and (min-width: 40em) {
+          .template-home .section-top .main-text .followthrough {
+            margin-top: 0; } }
