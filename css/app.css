@@ -3856,7 +3856,7 @@ label input[type='checkbox'][data-schema-key] {
         overflow-x: auto;
         overflow-y: hidden; } }
     .template-home .section-top .inner {
-      min-height: calc(100vh - 0px);
+      min-height: 100vh;
       height: 550px;
       position: relative; }
     .template-home .section-top .main-text {
